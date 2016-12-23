@@ -1,5 +1,12 @@
-$(function() {
+$.ajax({
+  url:' https://www.codeschool.com/users/3293359.json',
 
-  // your code will go here
+ 
 
-});
+dataType: 'jsonp',
+    success: function(response) {
+      // handle response
+    }
+  });
+
+    
